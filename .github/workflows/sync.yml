@@ -3,7 +3,6 @@ name: Upstream Sync
 # ✅ 关键权限设置：允许修改 .github/workflows/ 下的文件
 permissions:
   contents: write
-  workflows: write          # 这一行解决了你的报错问题！
 
 on:
   schedule:
