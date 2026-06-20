@@ -19,8 +19,8 @@ jobs:
       - name: Sync upstream
         run: |
           # 配置 Git 用户信息（可替换为你的用户名和邮箱）
-          git config --global user.name 'pfvlz'
-          git config --global user.email '44989151@qq.com
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           # 添加上游仓库地址（请替换为你 fork 的原始仓库地址）
           git remote add upstream https://github.com/qist/tvbox.git
